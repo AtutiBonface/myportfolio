@@ -1,1 +1,88 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}/* You can add global styles to this file, and also import other style files */
+
+html , body{
+    width: 100vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSansLight';
+    src: url("assets/fonts/static/PlusJakartaSans-Light.ttf") format('truetype');
+    font-weight: normal;
+
+}
+@font-face {
+    font-family: 'PlusJakartaSansBold';
+    src: url("assets/fonts/static/PlusJakartaSans-Bold.ttf") format('truetype');
+    font-weight: normal;
+
+}
+@font-face {
+    font-family: 'PlusJakartaSansExtraBold';
+    src: url("assets/fonts/static/PlusJakartaSans-ExtraBold.ttf") format('truetype');
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: 'PlusJakartaSansMedium';
+    src: url("assets/fonts/static/PlusJakartaSans-Medium.ttf") format('truetype');
+    font-weight: normal;
+
+}
+@font-face {
+    font-family: 'PlusJakartaSansRegular';
+    src: url("assets/fonts/static/PlusJakartaSans-Regular.ttf") format('truetype');
+    font-weight: normal;
+
+}
+
+:root{
+    --medium-font: 'PlusJakartaSansMedium';
+    --regular-font: 'PlusJakartaSansRegular';
+    --bold-font: 'PlusJakartaSansBold';
+    --extra-bold-font: 'PlusJakartaSansExtraBold';
+    --light-font: 'PlusJakartaSansLight';
+
+    
+    --margin-color: #d7d8d9;
+    --sec-color: rgba #ecf4fc;
+    --lower-left-color: #f0feeb;
+    --button-pr: #8dcc6d;
+
+    --secondary-color: green;
+
+
+    --box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.415);
+
+    --gradient-background : linear-gradient(180deg, #ffffff 0%, #9abb9a 100%) !important;
+      
+}
+
+ a {
+     font-family: var(--bold-font) !important;
+ }
+
+ h1 {
+     font-family: var(--extra-bold-font) !important;
+ }
+
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: var(--bold-font) !important;
+ }
+
+ p {
+     font-family: var(--medium-font) !important;
+ }
+
+

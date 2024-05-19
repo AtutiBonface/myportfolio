@@ -1,0 +1,69 @@
+.xp-card{
+    flex: 0 0 auto;
+    border-radius: 30px;
+    border-radius: 30px;
+    padding: 30px 32px;
+    box-shadow: var(--box-shadow);
+    background: var(--gradient-background);
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    
+    flex-direction: column;
+
+    a {
+            font-family: var(--extra-bold-font) !important;
+    }
+
+    h1 {
+        font-family: var(--extra-bold-font) !important;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--bold-font) !important;
+    }
+
+    h3{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 50%;
+        letter-spacing: -0.27px;
+        color: var(--secondary-color) !important;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: fit-content;
+        
+    }
+
+    .experiences{
+        margin: 15px 0;
+        h5{
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 100%;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 10px;
+            width: fit-content;
+            
+        }
+        h6{
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 100%;
+            color: #7A7F85 !important;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 10px;
+            width: fit-content;
+        }
+    }
+
+
+}

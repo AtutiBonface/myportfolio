@@ -1,0 +1,38 @@
+
+<div class="container "  [class.see]="see">
+    <div class="inner-container">
+        <div class="front card">
+            <div class="content">
+                <h4>{{title}}</h4>
+                <p>{{description}}</p>
+                <button class="xe-button see-more" (click)="seeMore()">
+                    <span>See more</span>
+                    <span class="img"><img src="/assets/expand-button.png" alt=""></span>
+                
+                </button>
+            </div>
+            <div class="image">
+                <img [src]="image" alt="">
+            </div>
+        </div>
+        <div class="back card">
+           
+            <div class="box">
+
+                <ul>
+                    <li>{{ moreDescription1 }}</li>
+                    <li>{{ moreDescription2 }}</li>
+                </ul>
+               
+            </div>
+            <button class="xe-button see-more" (click)="seeMore()">
+                <span>See less</span>
+                <span class="img"><img src="/assets/colapse.png" alt=""></span>
+            
+            </button>
+            
+
+        </div>
+
+    </div>
+</div>
