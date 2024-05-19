@@ -1,9 +1,12 @@
 import { Component, Input } from '@angular/core';
+import { ContainerIntersectionDirective } from '../directives/container-intersection.directive';
 
 @Component({
   selector: 'app-exp-xe-card',
   standalone: true,
-  imports: [],
+  imports: [
+    ContainerIntersectionDirective,
+  ],
   templateUrl: './exp-xe-card.component.html',
   styleUrl: './exp-xe-card.component.scss'
 })

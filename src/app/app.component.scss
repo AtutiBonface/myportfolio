@@ -413,18 +413,39 @@
     }
 
     .cards{
-        padding-top: 20px;               
+        padding-top: 20px;  
+        display: grid;
+        grid-template-columns: auto;
+    
+        gap: 25px;
+
+       
 
         app-xe-card{
             display: block;
-        
+
+            
         }
         
-        display: grid;
-        grid-template-columns: auto;
         
-        gap: 25px;
+
         
+        .mycard {
+            transform: scale(.9) !important;
+            transition: 1s ease-in-out;
+            opacity: 0;
+
+        }
+       
+      
+        .mycard.animate {
+            transform: scale(1) !important;
+            opacity: 1;
+
+           
+        }
+
+
 
         
     }
@@ -441,6 +462,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill , minmax(100% , 1fr));
         gap: 20px;
+
     }
 
 

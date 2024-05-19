@@ -94,16 +94,14 @@
         </div>
 
         <div class="cards">
-            <div *ngFor="let dt of data">
+            <div class="mycard" *ngFor="let dt of data" ANIMATE>
                 <app-xe-card 
                 [description]="dt.description" 
                 [image]="dt.image" 
                 [title]="dt.title"
                 [moreDescription1]="dt.moreDescription1"
                 [moreDescription2]="dt.moreDescription2"
-                
 
-                
                 />
             </div>
         </div>
@@ -142,7 +140,7 @@
             [subTitle1]="item.subTitle1"
             [subTitle2]="item.subTitle2"       
             
-            
+            ANIMATE
             />
             
         

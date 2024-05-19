@@ -8,6 +8,7 @@ import { title } from 'node:process';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { HttpClient, HttpClientModule, HttpErrorResponse } from '@angular/common/http';
 import { EMPTY, catchError } from 'rxjs';
+import { ContainerIntersectionDirective } from './directives/container-intersection.directive';
 
 
 @Component({
@@ -16,11 +17,14 @@ import { EMPTY, catchError } from 'rxjs';
   imports: [
     RouterOutlet,
     CommonModule,
+    ContainerIntersectionDirective,
     XeCardComponent,
     XeSkillCardsComponent,
     ExpXeCardComponent,
     ReactiveFormsModule,
     HttpClientModule,
+    
+    
 
   ],
   templateUrl: './app.component.html',
