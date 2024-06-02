@@ -7,7 +7,7 @@
     perspective: 1000px;
     overflow: hidden;
    
-    height: 480px;
+    height: 350px;
    
     
    
@@ -27,20 +27,20 @@
     }
 
     img{
-        max-height: 200px;
+        max-height: 150px;
         max-width: 100%;
         object-fit: cover;
     }
 
     h4{
         font-weight: 500;
-        font-size: 27px;
+        font-size: 1rem;
         line-height: 120%;
         letter-spacing: -0.01em;
         font-family: "Inter", sans-serif;
     }
     p,li{
-        font-size: 16px;
+        font-size: .7rem;
        
         font-weight: 600;
         line-height: 150%;
@@ -113,9 +113,9 @@
 .see-more{
    
     display: flex !important;
-    height: 60px !important;
+    height: 40px !important;
     border: none;
-    border-radius: 20px !important;
+    border-radius: 10px !important;
     align-items: center;
     padding: 0;
     margin: 0;
@@ -128,8 +128,8 @@
 
     span {
         padding: 7px 15px !important;
-        font-size: 1rem;
-        font-weight: 700;
+        font-size: .7rem;
+        font-weight: 500;
         color: white;
         font-family: "Inter", sans-serif;
     }
@@ -142,7 +142,7 @@
     }
 
     img {
-        height: 15px;
+        height: .8rem;
 
     }
 }
